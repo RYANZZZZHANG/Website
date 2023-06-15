@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <html> 
+        <title>Overview</title>
+      <head> 
+      <body> 
+        <body bgcolor = "Blue"></body>
+         <h1>Reflection</h1> 
+         <br>My project is made through Swift, I personally find that swift is pretty similar to pyret as they all have similar functions, however, the way that they are presented are diffrent</br>
+         <br>I wasn’t the most happy with my outcomes because my notifications actually took me a while and wanst the best. After creating the notification feature, I didnt completely understand concepts such as trigger and request and many more concepts. </br>
+         <div><h3>Career Paths</h3></div>
+         <br>Potential career paths that this project will lead to is jobs like application developer for IOS systems.  After this project, I personally feel like that application developer for IOS is actually having an easier time because Apple had made Swift such a great website giving developers more chances to create great things.</br>
+         <div><h3>Process</h3></div>
+         <br>This is my process for my addon to the tutorial, the explination tutorial is on the apple website already on the cited page(pictures on the doc): The import statements import the frameworks, it helps SwiftUI for building the user interface and “UserNotifications” for scheduling and handling notifications. This is the main entry point of the app. It defines the MyDatePlannerApp struct.When an app wants to send you notifications, it needs to ask for your permission first. The init() method is responsible for doing this. It workds by calling the requestAuthorization(options:completionHandler:) method on the UNUserNotificationCenter object. This method shows you a pop-up asking if you want to allow the app to send notifications. The options parameter specifies what kind of notifications the app can send, and the other parameter is a way for the app to know if you said yes or no. If you said yes, the granted parameter will be true, and if you said no, it will be false. The ContentView's 'body' property controls how the view is arranged and displayed on the screen. In this case, it contains a vertical stack of views (VStack) that includes a title and a button. When the button is pressed, it triggers the 'addNewDate()' method.The addNewDate() method is used to create and schedule a new notification to be delivered in 5 seconds. First, it creates a notification content object that contains the title, body, and sound of the notification. Next, it creates a trigger for the notification using a time interval trigger. The trigger will be ringing after 5 seconds. Then, the method creates a notification request object using the content and trigger. Finally, it schedules the request using the add(request:withCompletionHandler:) method of the UNUserNotificationCenter. This method schedules the notification to be delivered at the specified time. Once the request is completed, the completion handler is called. If there is an error, it will log the error message.
+        </br>
+      </body>
+</html>
